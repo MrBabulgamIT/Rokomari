@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#F8F8F6"
+    android:layout_height="130dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome!"
+            android:id="@+id/nav_headername_id"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nav_login_id"
+            android:text="Sign IN | Sign Up"
+            android:layout_below="@+id/nav_headername_id"
+            android:backgroundTint="#EDBE31"
+            android:textSize="18dp"
+            android:layout_margin="10dp"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_baseline_person_24"
+            android:id="@+id/nav_picture_id"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            />
+
+    </RelativeLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

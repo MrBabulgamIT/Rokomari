@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/home_id"
+        android:icon="@drawable/books"
+
+        />
+    <item android:title="Book"
+        android:id="@+id/book_id"
+        >
+        <menu >
+            <item
+                android:title="বিষয়"
+                android:id="@+id/me_subject_id"
+                />
+            <item
+                android:title="লিখক"
+                android:id="@+id/me_lekkhok_id"
+                />
+
+            <item
+                android:title="বইমেলা 2021"
+                android:id="@+id/ma_boimela_id"
+                />
+
+            <item
+                android:title="ইসলামি বই"
+                android:id="@+id/me_islamic_id"
+                />
+            <item
+                android:title="বেস্টসেলার বই"
+                android:id="@+id/me_bestsaller_id"
+                />
+
+            <item
+                android:title="রকমারি প্যাকেজে"
+                android:id="@+id/me_rokomaripackge_id"
+                />
+
+            <item
+                android:title="বিজ্ঞানবাক্স"
+                android:id="@+id/me_begganbaxx_id"
+                />
+            <item
+                android:title="অতিরিক্ত  ছাড়ের  বই"
+                android:id="@+id/me_otirektochar_id"
+                />
+
+
+            <item
+                android:title="পশ্চিমবঙ্গের বই"
+                android:id="@+id/me_poschimbongo_id"
+                />
+
+        </menu>
+    </item>
+
+
+    <item
+        android:title="About us"
+        android:id="@+id/me_aboutUs_id"
+        android:icon="@drawable/info"
+        />
+    <item
+        android:title="Feedback"
+        android:id="@+id/me_feedback_id"
+        android:icon="@drawable/feedback"
+        />
+
+
+    <item
+        android:title="Support"
+        android:id="@+id/me_support_id"
+        android:icon="@drawable/customer"
+        />
+
+    <item
+        android:title=" Privacy Policy"
+        android:id="@+id/me_privacy_id"
+        android:icon="@drawable/privacy_polacy"
+        />
+
+</menu>

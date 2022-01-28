@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "991618559205",
+    "project_id": "rokomari-app",
+    "storage_bucket": "rokomari-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991618559205:android:9e32aff70febef56ea380c",
+        "android_client_info": {
+          "package_name": "com.babulgamit.rokomariapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991618559205-uvo2b5mskls3fqpoi5f2ltq7ukciutk3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMySaKShLRwXQJtcb-xmLH60bUcjCGz-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991618559205-uvo2b5mskls3fqpoi5f2ltq7ukciutk3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
